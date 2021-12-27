@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-13">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX"/>
+	<classpathentry kind="lib" path="C:/Users/Me/Desktop/My Workspace/Java Projects/Gym Management System Project/ExternalLibraries/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Me/Desktop/My Workspace/Java Projects/Gym Management System Project/ExternalLibraries/fontawesomefx-8.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Me/Desktop/My Workspace/Java Projects/Gym Management System Project/ExternalLibraries/javase-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Me/Desktop/My Workspace/Java Projects/Gym Management System Project/ExternalLibraries/javax.mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Me/Desktop/My Workspace/Java Projects/Gym Management System Project/ExternalLibraries/mysql-connector-java-8.0.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Me/Desktop/My Workspace/Java Projects/Gym Management System Project/ExternalLibraries/protobuf-java-3.11.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Me/Desktop/My Workspace/Java Projects/Gym Management System Project/ExternalLibraries/webcam-capture-0.3.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Me/Desktop/My Workspace/Java Projects/Gym Management System Project/ExternalLibraries/zxing-core-2.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

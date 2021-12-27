@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddMemberScreenController">
+   <top>
+      <AnchorPane prefHeight="70.0" prefWidth="600.0" style="-fx-background-color: #000000;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="221.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Member">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="26.0" />
+               </font>
+            </Text>
+            <Button layoutX="14.0" layoutY="21.0" mnemonicParsing="false" onAction="#goBack" prefHeight="28.0" prefWidth="64.0" style="-fx-background-color: white;" text="Go Back" textFill="#404040">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </top>
+   <right>
+      <AnchorPane prefHeight="330.0" prefWidth="163.0" style="-fx-background-color: #404040;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="38.0" layoutY="279.0" mnemonicParsing="false" onAction="#addButtonPushed" prefHeight="26.0" prefWidth="87.0" style="-fx-background-color: #000000;" text="Add" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </right>
+   <center>
+      <AnchorPane fx:id="anchorPane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="nameTextField" layoutX="35.0" layoutY="50.0" promptText="full name" style="-fx-background-color: Transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="addressTextField" layoutX="35.0" layoutY="87.0" promptText="address" style="-fx-background-color: Transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="genderTextField" layoutX="35.0" layoutY="125.0" promptText="gender" style="-fx-background-color: Transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="mobileNumTextField" layoutX="35.0" layoutY="162.0" promptText="mobile number" style="-fx-background-color: Transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="emailTextField" layoutX="35.0" layoutY="236.0" promptText="email" style="-fx-background-color: Transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
+            <Text fill="#404040" layoutX="221.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Example">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="21.0" />
+               </font>
+            </Text>
+            <Text fill="#404040" layoutX="214.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hasan M Dweik" wrappingWidth="142.13671875" />
+            <Text fill="#404040" layoutX="214.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N0:150,Der Qubel, Baabda" wrappingWidth="146.13671875" />
+            <Text fill="#404040" layoutX="214.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Male" wrappingWidth="95.13671875" />
+            <Text fill="#404040" layoutX="214.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="03******" wrappingWidth="95.13671875" />
+            <Text fill="#404040" layoutX="211.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="hasan99dweik@gmail.com" wrappingWidth="144.13671875" />
+            <Label fx:id="nameErrorLabel" layoutX="382.0" layoutY="57.0" prefHeight="17.0" prefWidth="104.0" textFill="RED" />
+            <Label fx:id="addressErrorLabel" layoutX="382.0" layoutY="92.0" prefHeight="17.0" prefWidth="104.0" textFill="RED" />
+            <Label fx:id="genderErrorLabel" layoutX="382.0" layoutY="132.0" prefHeight="17.0" prefWidth="104.0" textFill="RED" />
+            <Label fx:id="mobileNumErrorLabel" layoutX="382.0" layoutY="168.0" prefHeight="17.0" prefWidth="104.0" textFill="RED" />
+            <Label fx:id="dateOfBirthErrorLabel" layoutX="382.0" layoutY="205.0" prefHeight="17.0" prefWidth="104.0" textFill="RED" />
+            <Label fx:id="emailErrorLabel" layoutX="382.0" layoutY="241.0" prefHeight="17.0" prefWidth="104.0" textFill="RED" />
+            <TextField fx:id="imageTextField" layoutX="35.0" layoutY="273.0" promptText="image" style="-fx-background-color: Transparent; -fx-border-color: #404040; -fx-border-width: 0px 0px 2px 0px;" />
+            <Button layoutX="220.0" layoutY="273.0" mnemonicParsing="false" onAction="#handleBrowseButtonAction" prefHeight="29.0" prefWidth="111.0" style="-fx-background-color: #404040;" text="Browse" textFill="WHITE" />
+            <DatePicker fx:id="dateOfBirthPicker" editable="false" layoutX="35.0" layoutY="200.0" promptText="date of birth" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
